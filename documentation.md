@@ -107,3 +107,22 @@ The API uses JSON to represent request and response bodies. The following is an 
   "email": "johndoe@example.com"
 }
 ```
+
+# Error Handling
+
+The API uses standard HTTP error codes to indicate errors. The following is a list of error codes used by the API:
+
+| Error Code | Description           |
+| ---------- | --------------------- |
+| 400        | Bad Request           |
+| 401        | Unauthorized          |
+| 404        | Not Found             |
+| 500        | Internal Server Error |
+
+# Security
+
+The API uses authentication and authorization to secure endpoints. The API uses JSON Web Tokens (JWT) to authenticate users and barbers.
+
+# Conclusion
+
+The Barbershop API provides a comprehensive set of endpoints for managing users, barbers, and appointments. The API uses standard HTTP methods and JSON to represent request and response bodies. The API also uses authentication and authorization to secure endpoints.
